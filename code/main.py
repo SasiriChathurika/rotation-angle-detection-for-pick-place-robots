@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Constants (tunable parameters)
-REFERENCE_IMAGE_PATH = "/data/image1.jpg"
+REFERENCE_IMAGE_PATH = "data/image1.jpg"
 GOOD_MATCH_THRESHOLD = 0.6
 MIN_GOOD_MATCHES = 20
 RANSAC_REPROJECTION_THRESHOLD = 5.0
