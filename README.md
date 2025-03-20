@@ -6,7 +6,7 @@
 
 **This code was solely developed by Sasiri Chathurika.**
 
-This system employs computer vision techniques to accurately determine the rotation angle of objects on a static or moving conveyor belt or in fixed locations. The system is designed for seamless integration with pick-and-place robotic systems, enabling automated object handling. It utilizes OpenCV, NumPy, and feature matching (SIFT, FLANN) to achieve robust and reliable angle detection.
+This system employs computer vision techniques to accurately determine the rotation angle of objects on a static or moving conveyor belt or in fixed locations.  By providing precise orientation information, this system contributes to the field of robotics by enabling more efficient and flexible automated pick-and-place operations. This allows robots to adapt to varying object orientations without requiring precise pre-alignment. The system is designed for seamless integration with pick-and-place robotic systems, enabling automated object handling and reducing the need for manual intervention. It utilizes OpenCV, NumPy, and feature matching (SIFT, FLANN) to achieve robust and reliable angle detection.  The system offers cost-effective and easily deployable solutions to automate pick and place tasks by improving the flexibility and efficiency of robotic arm operations.
 
 **Note:** This version does *not* include camera calibration. Accuracy may be affected by lens distortion.
 
@@ -24,11 +24,11 @@ This system employs computer vision techniques to accurately determine the rotat
 
 ## Features
 
-*   **Rotation Angle Detection:** Accurately determines the rotation angle of objects.
-*   **Real-Time Processing:** Processes video frames in real-time for timely angle updates.
-*   **Feature-Based Matching:** Utilizes SIFT features and FLANN matching for robust object recognition.
-*   **Homography Estimation:** Employs homography estimation with RANSAC for accurate transformation calculation.
-*   **Pick-and-Place Integration:** Designed for easy integration with pick-and-place robotic systems.
+*   **Rotation Angle Detection:** Accurately determines the rotation angle of objects, enabling robots to grasp objects regardless of their orientation. This is a direct improvement in pick and place applications compared to traditional approaches which requires complex pre-alignment systems.
+*   **Real-Time Processing:** Processes video frames in real-time for timely angle updates, allowing for responsive robot control in dynamic environments.
+*   **Feature-Based Matching:** Utilizes SIFT features and FLANN matching for robust object recognition, improving reliability compared to systems relying on template matching.
+*   **Homography Estimation:** Employs homography estimation with RANSAC for accurate transformation calculation, enabling precise robot movements even with imperfect image data.
+*   **Pick-and-Place Integration:** Designed for easy integration with pick-and-place robotic systems, simplifying the deployment of automated solutions in manufacturing and logistics.  This offers improved adaptability to changing object positions and orientations.
 
 ## Installation
 
